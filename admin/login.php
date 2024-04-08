@@ -9,17 +9,16 @@
     <title>Đăng nhập</title>
 
     <!-- Core CSS - Include with every page -->
-    <link rel="shortcut icon" type="image/icon-logo" href="/qlhs_ht/img/logo.png">
-    <link href="/women/public/admin/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/women/public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/icon-logo" href="../libs/img/logo.png">
+    <link href="libraries/css/bootstrap.min.css" rel="stylesheet">
+    <link href="libraries/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- SB Admin CSS - Include with every page -->
-    <link href="/women/public/admin/css/sb-admin.css" rel="stylesheet">
+    <link href="libraries/css/sb-admin.css" rel="stylesheet">
 
 </head>
 
 <body>
-
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
@@ -31,10 +30,12 @@
                         <form role="form" action='libraries/function.php' method='POST'>
                             <fieldset>
                                 <div class="form-group">
-                                    <input class="form-control" id="fname" placeholder="Tài khoản" name="username" type="text" autofocus>
+                                    <input class="form-control" id="fname" placeholder="Tài khoản" name="username"
+                                        type="text" autofocus>
                                 </div>
                                 <div class="form-group">
-                                    <input class="form-control" id="fname" placeholder="Mật khẩu" name="password" type="password" value="">
+                                    <input class="form-control" id="fname" placeholder="Mật khẩu" name="password"
+                                        type="password" value="">
                                 </div>
                                 <div class="checkbox">
                                     <label>
@@ -42,8 +43,9 @@
                                     </label>
                                 </div>
                                 <!-- Change this to a button or input when using this as a form -->
-                                
-                                <input class="btn btn-lg btn-success btn-block" type="submit" name="dangnhap" value="Đăng nhập">
+
+                                <input class="btn btn-lg btn-success btn-block" type="submit" name="dangnhap"
+                                    value="Đăng nhập">
                             </fieldset>
                         </form>
                     </div>
@@ -53,12 +55,16 @@
     </div>
 
     <!-- Core Scripts - Include with every page -->
-    <script src="/women/public/admin/js/jquery-1.10.2.js"></script>
-    <script src="/women/public/admin/js/bootstrap.min.js"></script>
-    <script src="/women/public/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="libraries/js/jquery-1.10.2.js"></script>
+    <script src="libraries/js/bootstrap.min.js"></script>
+    <script src="libraries/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 
     <!-- SB Admin Scripts - Include with every page -->
-    <script src="/women/public/admin/js/sb-admin.js"></script>
+    <script src="libraries/js/sb-admin.js"></script>
+
+    <!-- Page-Level Plugin Scripts - Dashboard -->
+    <script src="libraries/js/plugins/morris/raphael-2.1.0.min.js"></script>
+    <script src="libraries/js/plugins/morris/morris.js"></script>
 
 </body>
 
